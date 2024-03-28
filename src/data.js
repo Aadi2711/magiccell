@@ -1,0 +1,312 @@
+const Data = [
+  {
+    "Email": "rahul.btech20@sushantuniversity.edu.in",
+    "Name": "Rahul",
+    "roll_no": "200BTCCSEAIML002",
+    "College Mail ID": "rahul.btech20@sushantuniversity.edu.in",
+    "Mobile Number": "09058278843",
+    "Program": "CSE(AI&ML)",
+    "Department": "Academic Support, Administration & ITES Support",
+    "(State in Brief)": "Hi This is Rahul B.Tech 1st year This is to bring into your information that I have mailed Dean SET about GitHub Campus Program, almost a week ago But I didn't get any update regarding this. So you are requested to do as needful. Thanks https://www.linkedin.com/in/rahul-rajput-0945011b5",
+    "Status": "open"
+  },
+  {
+    "Email": "paryankbhardwaj.btech20@sushantuniversity.edu.in",
+    "Name": "Paryank Bhardwaj",
+    "roll_no": "200BTCCSE001",
+    "College Mail ID": "paryankbhardwaj.btech20@sushantuniversity.edu.in",
+    "Mobile Number": "8929958066",
+    "Program": "B.Tech CSE",
+    "Department": "Health & Wellness",
+    "(State in Brief)": "My family members are Covid Positive.",
+    "Status": "open"
+  },
+  {
+    "Email": "anshushrivastava.btech20@sushantuniversity.edu.in",
+    "Name": "Anshu Shrivastava",
+    "roll_no": "200BTCCSE012",
+    "College Mail ID": "anshushrivastava.btech20@sushantuniversity.edu.in",
+    "Mobile Number": "6204159567",
+    "Program": "BTECH CSE",
+    "Department": "Any other Issues",
+    "(State in Brief)": "In this covid we all have to reissue the book we have taken from the library again and again in the duration of 15 days we have message to sir or librarian to reissue it",
+    "Status": "open"
+  },
+  {
+    "Email": "dakshmehra.btech16@sushantuniversity.edu.in",
+    "Name": "DAKSH MEHRA",
+    "roll_no": "160BTCECE011",
+    "College Mail ID": "MEHRAMOHIT2099@GMAIL.COM",
+    "Mobile Number": "+919555558467",
+    "Program": "BTECH(ECE)",
+    "Department": "Health & Wellness",
+    "(State in Brief)": "All my family members were Covid positive and they are in the recovery phase and I also experiencing the same past 4 days",
+    "Status": "open"
+  },
+  {
+    "Email": "furkanmir777@gmail.com",
+    "Name": "Furkan Mir",
+    "roll_no": "170btcece009",
+    "College Mail ID": "furkanmir.btech17@sushantuniversity.edu.in",
+    "Mobile": "7051000777",
+    "Program": "B.tech ece",
+    "Department": "Any other Issues",
+    "(State in Brief)": "I need a bonafied certificate which states that I have completed all the 7th semesters and the result of the 8th semester is awaited. I need this on an urgent basis for my admission abroad.",
+    "Status": "open"
+  },
+  {
+    "Email": "rahultanwar.mtech20@sushantuniversity.edu.in",
+    "Name": "rahul tanwar",
+    "roll_no": "200MTCCSEITBC001",
+    "College Mail ID": "rahultanwar.mtech20@sushantuniversity.edu.in",
+    "Mobile": "09999389928",
+    "Program": "Mtech iot",
+    "Department": "Examinations & University Affairs",
+    "(State in Brief)": "I was late admission so there were no 1st semester exams, just wanted to know when will the 1st semester exams be and I will be out of the country by next 5 days so how can I conduct my exam.",
+    "Status": "open"
+  },
+  {
+    "Email": "kunalacharya.btech19@ansaluniversity.edu.in",
+    "Name": "Kunal Acharya",
+    "roll_no": "190BTCCSE038",
+    "College Mail ID": "kunalacharya.btech19@ansaluniversity.edu.in",
+    "Mobile": "+919635508238",
+    "Program": "B.tech CSE(AI and ML)",
+    "Department": "Academic Support, Career Services",
+    "(State in Brief)": "Internship",
+    "Status": "open"
+  },
+  {
+    "Email": "sanchitpaliwal.btech17@sushantuniversity.edu.in",
+    "Name": "SANCHIT PALIWAL",
+    "roll_no": "170BTCECE008",
+    "College Mail ID": "sanchitpaliwal.btech17@sushantuniversity.edu.in",
+    "Mobile": "9891494831",
+    "Program": "BTECH ECE",
+    "Department": "Examinations & University Affairs",
+    "(State in Brief)": "Can you please declare 8th sem result asap?? I need to do document verification before joining JOB for which I need 8th sem result and provisional certificate if available at earliest.",
+    "Status": "open"
+  },
+  {
+    "Email": "sonukmr318@gmail.com",
+    "Name": "Sonu Kumar",
+    "roll_no": "200MTCCIV002",
+    "College Mail ID": "sonukumar.mtech20@sushantuniversity.edu.in",
+    "Mobile": "9304269139",
+    "Program": "M-tech (construction management)",
+    "Department": "Accounts",
+    "(State in Brief)": "My father is a farmer and financially not stable and economically affected due to covid 19. So I need financial support or need approval to submit semester fees in three installments.",
+    "Status": "open"
+  },
+  {
+    "Email": "TANISHQKUMAR.BCA20@SUSHANTUNIVERSITY.EDU.IN",
+    "Name": "tanishq",
+    "roll_no": "200BCA002",
+    "College Mail ID": "tanishqkumar.bca20@sushantuniversity.edu.in",
+    "Mobile Number": "9953401832",
+    "Program": "BCA",
+    "Department": "Accounts",
+    "(State in Brief)": "Hi, I am Tanishq. I do the BCA program. In the last semester, I forgot to take the discount given by the university at the time of admission, so I won't be able to take the discount in this semester.",
+    "Status": "open"
+  },
+  {
+    "Email Address": "LUVMAHALWAL07@gmail.com",
+    "Name": "Luv Mahalwal",
+    "roll_no": "170BTCCSE026",
+    "College Mail ID": "luvmahalwal.btech17@sushantuniversity.edu.in",
+    "Mobile": "8587086899",
+    "Program": "BTech CSE",
+    "Department": "Any other Issues",
+    "(State in Brief)": "I have paid 500 rupees for MUN. And it was stated that MUN is postponed and will happen for sure. But it has been 2 years since there is any information on MUN.",
+    "Status": "open"
+  },
+  {
+    "Email": "jhanvigulati60@gmail.com",
+    "Name": "Jhanvi Gulati",
+    "roll_no": "170BTCCSE050",
+    "College Mail ID": "jhanvigulati.btech17@sushantuniversity.edu.in",
+    "Mobile": "9810733870",
+    "Program": "BTech CSE",
+    "Department": "Any other Issues",
+    "(State in Brief)": "I have paid 500 rupees for MUN. And it was stated that MUN has postponed and will happen for sure. But it has been 2 years since there is any information on MUN.",
+    "Status": "open"
+  },
+  {
+    "Email": "s.rahul.7299@gmail.com",
+    "Name": "Rahul Sharma",
+    "roll_no": "170BTCCIV007",
+    "College Mail ID": "Rahulsharma1.btech17@sushantuniversity.edu.in",
+    "Mobile": "9313888808",
+    "Program": "B. Tech civil",
+    "Department": "Finance, Accounts, Any other Issues",
+    "(State in Brief)": "Refund for MUN fee of Rs500",
+    "Status": "open"
+  },
+  {
+    "Email": "vishalthakkur.btech19@sushantuniversity.edu.in",
+    "Name": "Vishal Thakkur",
+    "roll_no": "190BTCCSECS012",
+    "College Mail ID": "vishalthakkur.btech19@ansaluniversity.edu.in",
+    "Mobile": "8182002259",
+    "Program": "Btech CSE(cyber)",
+    "Department": "Examinations & University Affairs",
+    "(State in Brief)": "From April to May end, I was admitted to the hospital due to Covid. Because of that, I was not able to give my mid-term exam of TDL - Radiation Hazards. So my program coordinator mailed the dean about my health and asked for allowing for an excuse, and it was acknowledged by the Dean. Still, as per results, I failed in my TDL exam.",
+    "Status": "open"
+  },
+  {
+    "Email": "bhavikaparashar.btech18@sushantuniversity.edu.in",
+    "Name": "Bhavika Parashar",
+    "roll_no": "180btccse005",
+    "College Mail ID": "bhavikaparashar.btech18@sushantuniversity.edu.in",
+    "Mobile": "9582054212",
+    "Program": "BTech Computer Science",
+    "Department": "Examinations & University Affairs",
+    "(State in Brief)": "Respected ma'am/sir, I have been asked to submit a letter from the college stating that I am looking for an internship from some company that I have applied for an internship in.",
+    "Status": "open"
+  },
+  {
+    "Email": "paraschaudhary.btech20@sushantuniversity.edu.in",
+    "Name": "Paras Chaudhary",
+    "roll_no": "200BTCCSE008",
+    "College Mail ID": "paraschaudhary.btech20@sushantuniversity.edu.in",
+    "Mobile": "8920395982",
+    "Program": "B.tech Computer science and engineering",
+    "Department": "Examinations & University Affairs",
+    "(State in Brief)": "My TCSion 1st Semester results section shows I have a backlog in TDL (LIDAR and its Applications). I have scored 88 overall in my TDL subject and the information it shows seems to be incorrect. I need that to be updated as it will create an issue later on.",
+    "Status": "open"
+  },
+  {
+    "Email": "Rahul.btech20@sushantuniversity.edu.in",
+    "Name": "Rahul Roy",
+    "roll_no": "200BTCCSEAIML002",
+    "College Mail ID": "Rahul.btech20@sushantuniversity.edu.in",
+    "Mobile": "+91 90582 78843",
+    "Program": "B.tech CSE",
+    "Department": "Examinations & University Affairs",
+    "(State in Brief)": "Regarding updating my 1st semester TDL marks. I have scored 86 in my TDL subject Data Analytics but according to my TCSion it shows backlog in the same subject. Please update the marks as it can create issues afterwards during overall results.",
+    "Status": "open"
+  },
+  {
+    "Email": "chauhandikshaant@gmail.com",
+    "Name": "Dikshaant Chauhan",
+    "roll_no": "210BCA011",
+    "College Mail ID": "",
+    "Mobile": "8882757231",
+    "Program": "BCA",
+    "Department": "Any other Issues",
+    "(State in Brief)": "I haven't received my official email ID and ID card yet.",
+    "Status": "open"
+  },
+  {
+    "Email": "ilakshyainst@gmail.com",
+    "Name": "Lakshya Vardhan Soni",
+    "roll_no": "2103690",
+    "College Mail ID": "",
+    "Mobile": "9200002270",
+    "Program": "BCA",
+    "Department": "Admissions & Academic Advice, Accounts",
+    "(State in Brief)": "I didn't get my college ID and Enrollment number.",
+    "Status": "open"
+  },
+  {
+    "Email": "bindraanshika@gmail.com",
+    "Name": "Anshika Bindra",
+    "roll_no": "210BCA002",
+    "College Mail ID": "",
+    "Mobile": "9599710753",
+    "Program": "BCA",
+    "Department": "Any other Issues",
+    "(State in Brief)": "I need my official college email ID.",
+    "Status": "open"
+  },
+  {
+    "Email": "goyalhappy2003@gmail.com",
+    "Name": "Happy Goyal",
+    "roll_no": "210bca014",
+    "College Mail ID": "",
+    "Mobile Number": "8920487967",
+    "Program": "BCA",
+    "Department": "Admissions & Academic Advice, Finance, Accounts, Any other Issues",
+    "(State in Brief)": "Permanent ID card not received.",
+    "Status": "open"
+  },
+  {
+    "Email": "riya2807.kush@gmail.com",
+    "Name": "Riya Kush",
+    "roll_no": "210BCA003",
+    "College Mail ID": "",
+    "Mobile": "95555888407",
+    "Program": "BCA",
+    "Department": "Accounts, Any other Issues",
+    "(State in Brief)": "1. Haven't received the official mail ID. 2. Haven't received the receipt of the submitted fee.",
+    "Status": "open"
+  },
+  {
+    "Email": "khushishalya7791@gmail.com",
+    "Name": "Khushi Shalya",
+    "roll_no": "210BTCSEPF003",
+    "College Mail ID": "Khushishalya21.btech21@sushantuniversity.edu.in",
+    "Mobile Number": "6395678397",
+    "Program": "B tech(CSE) Cybersecurity",
+    "Department": "Any other Issues",
+    "(State in Brief)": "My specialization in records is wrong. Actually, I had opted for Cyber Security but due to some technical reason, full-stack development is showing in your records.",
+    "Status": "open"
+  },
+  {
+    "Email": "mohitt1039@gmail.com",
+    "Name": "Mohit Tiwari",
+    "roll_no": "210BCA016",
+    "College Mail ID": "mohittiwari.bca21@sushantuniversity.edu.in",
+    "Mobile": "9899474276",
+    "Program": "BCA",
+    "Department": "Admissions & Academic Advice, Finance, Any other Issues",
+    "(State in Brief)": "They do not tell about the scholarship.",
+    "Status": "open"
+  },
+  {
+    "Email": "goyalhappy2003@gmail.com",
+    "Name": "Happy Goyal",
+    "roll_no": "210bca014",
+    "College Mail ID": "happygoyal.bca21@sushantuniversity.edu.in",
+    "Mobile": "8920487967",
+    "Program": "BCA",
+    "Department": "Admissions & Academic Advice, Finance, Accounts, Any other Issues",
+    "(State in Brief)": "Please update my scholarship in the accounts office.",
+    "Status": "open"
+  },
+  {
+    "Email": "asmiarora.bca21@sushantuniversity.edu.in",
+    "Name": "Asmi Arora",
+    "roll_no": "2103000",
+    "College Mail ID": "asmiarora.bca21@sushantuniversity",
+    "Mobile": "09213927382",
+    "Program": "BCA",
+    "Department": "Accounts, Any other Issues",
+    "(State in Brief)": "I have not got my TCS ID, ID Card, Roll no.",
+    "Status": "open"
+  },
+  {
+    "Email": "satyajeet2724@gmail.com",
+    "Name": "Satyajeet Mohanty",
+    "roll_no": "210BTCSEPF002",
+    "College Mail ID": "satyajeetmohanty.btech21@sushantuniversity.edu.in",
+    "Mobile": "8851397478",
+    "Program": "B.Tech",
+    "Department": "Library",
+    "(State in Brief)": "There is no python book in the library. Please add this to the library. Also, why can't we issue the semester subject books for a semester or a little longer than a week?",
+    "Status": "open"
+  },
+  {
+    "Email": "subhamjena.btech@sushantuniversity.edu.in",
+    "Name": "Subham Jena",
+    "roll_no": "210BTCSEAM005",
+    "College Mail ID": "subhamjena.btech21@sushantuniversity.edu.in",
+    "Mobile": "8093190505",
+    "Program": "B Tech.",
+    "Department": "Accounts",
+    "(State in Brief)": "I have sent fees from 20 September 2021(Rs -16,299), but till now that amount has not gone to the college account department. It's also pending on TCS. I've sent that transaction details to the account department many times, but there is no response from your side. So if you please confirm that you have received that payment & clear that particular amount, I'll be glad.",
+    "Status": "open"
+  }
+];
+
+export default Data;
