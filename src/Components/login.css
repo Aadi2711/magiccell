@@ -1,0 +1,18 @@
+.login-main{
+    background-color: #151C2A;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    background-color: #101520;
+    width: 30%;
+    height: 60%;
+}
+
+.login-title{
+    
+}
